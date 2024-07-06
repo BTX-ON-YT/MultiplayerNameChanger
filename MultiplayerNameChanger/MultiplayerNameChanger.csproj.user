@@ -2,7 +2,5 @@
 <Project>
   <PropertyGroup>
     <BeatSaberDir></BeatSaberDir>
-    <ReferencePath>
-    </ReferencePath>
   </PropertyGroup>
 </Project>
