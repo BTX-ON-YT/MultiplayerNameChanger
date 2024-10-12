@@ -25,12 +25,12 @@ namespace MultiplayerNameChanger.UI {
         }
 
         public void Initialize() {
-            MenuButtons.instance.RegisterButton(_menuButton);
-            BSMLSettings.instance.AddSettingsMenu("Name Changer", "MultiplayerNameChanger.Views.SettingsView.bsml", _settings);
+            MenuButtons.Instance.RegisterButton(_menuButton);
+            BSMLSettings.Instance.AddSettingsMenu("Name Changer", "MultiplayerNameChanger.Views.SettingsView.bsml", _settings);
         }
 
         public void Dispose() {
-            MenuButtons.instance.UnregisterButton(_menuButton);
+            MenuButtons.Instance.UnregisterButton(_menuButton);
         }
 
         private void SummonFlowCoordinator() {
